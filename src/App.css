@@ -1,0 +1,161 @@
+body{
+  padding-top: 0;
+}
+#App {
+  
+  background-size: cover;
+  height: 400px;
+  background-attachment:fixed;
+
+  
+  
+}
+.navbar{
+  display: flex;
+  position: fixed;
+ 
+ 
+}
+#nav-name{
+  font-family: 'Great Vibes', cursive;
+  margin-left: 10px;
+
+}
+#nav{
+  
+  margin-top: 15px;
+  display: flex;
+  margin-left: 600px;
+  
+}
+.nav{
+  font-size: 22px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color:rgb(178, 206, 230);
+  
+}
+
+
+.quote{
+  text-align: center;
+  height: 100px;
+  
+ padding-top: 100px;
+ 
+
+  
+}
+.places{
+  font-size: 10px;
+  color: black;
+ 
+  
+
+}
+.theplace{
+  display: flex;
+justify-content: space-around;
+
+}
+.maldivesimg{
+  
+  height: 300px;
+  border-radius: 20px;
+}
+.name{
+  display: flex;
+  margin-bottom: -10px;
+}
+.location{
+  display: flex;
+margin-top: -10px;
+}
+#name, .locate{
+  margin-left: 18px;
+  margin-top: 18px;
+}
+.smore{
+  display: flex;
+  margin-top: -15px;
+  margin-left: 30px;
+}
+.smore:hover{
+  color: blue;
+  font-size: 12px;
+
+}
+.back{
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+#smore{
+  display: flex;
+align-items: center;
+  margin-left: 0px;
+ 
+  height: 25px;
+  margin-top:150px
+  
+ 
+  
+}
+#smore:hover{
+  color: blue;
+  font-size: 18px;
+
+}
+#back{
+  height: 20px;
+ margin-top: 5px;
+  margin-left: 5px;
+}
+.text{
+  border: solid;
+  width: 100px;
+  margin-top: 40px;
+  height: 80px;
+}
+.navlink{
+text-decoration: none;
+}
+.export{
+  padding-bottom: 20px;
+}
+.exp-img{
+  height: 300px;
+  float: left;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.img-text{
+  text-align: justify;
+}
+.exp-down-img{
+  display: flex;
+  justify-content: space-around;
+}
+.exp-1st-img{
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  
+
+}
+.exp-2nd-img{
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+}
+.exp-3rd-img{
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+}
+a{
+  color:black;
+}
