@@ -1,5 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Route,Switch } from "react-router-dom";
+import {Fade} from "react-reveal"
 
 function Export(props){
     return(
@@ -17,9 +18,11 @@ function Export(props){
            </div>
            </div>
            <div className="exp-down-img">
+            <Fade>
             <img src={props.img1} className="exp-1st-img" alt=""/>
             <img src={props.img2} className="exp-2nd-img" alt=""/>
             <img src={props.img3} className="exp-3rd-img" alt=""/>
+            </Fade>
            </div>
            </Route>
 </Switch>

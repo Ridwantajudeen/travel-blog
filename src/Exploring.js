@@ -1,6 +1,7 @@
 import React from "react";
 import Export from "./Explore";
 import santorini from "./images/Santorini.jpg"
+import amante from "./images/Amante-Ibiza.jpg"
 
 import maldives from "./images/maldives.jpg"
 import mal1 from "./images/maldives/mal1.jpg"
@@ -54,6 +55,13 @@ img3={san3}
  link={'/santorini'}
 
 />
+
+<Export
+img={amante}
+link={"/amante"}
+p1={``}
+/>
+
         </div>
     )
 }

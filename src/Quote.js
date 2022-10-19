@@ -1,4 +1,5 @@
 import React  from "react";
+import { Flip } from "react-reveal"
 
 import Place from "./Place";
 
@@ -13,13 +14,14 @@ function Quote(children){
     return (
         <div className='quote'>
              <div  className="theplace">
-          
+          <Flip>
             <Place
             image={maldives}
             name="Maldives"
             location='Republic of Maldives'
             navlink={"/maldives"}
             />
+            
             
             <Place
             image={santorini}
@@ -31,6 +33,7 @@ function Quote(children){
             image={amante}
             name="Amante, Ibiza"
             location='Ibiza, Spain'
+            navlink={"/amante"}
             />
             <Place
             image={bora}
@@ -40,6 +43,7 @@ function Quote(children){
              <div id="smore">
 <h2 more="more"> more</h2><img src={back} alt='' id="back"/>
 </div>
+</Flip>
             </div>
           
 

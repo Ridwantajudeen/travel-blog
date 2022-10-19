@@ -10,6 +10,7 @@ body{
   
   
 }
+
 .navbar{
   display: flex;
   position: fixed;
@@ -79,6 +80,8 @@ margin-top: -10px;
   display: flex;
   margin-top: -15px;
   margin-left: 30px;
+  position: absolute;
+ 
 }
 .smore:hover{
   color: blue;
@@ -96,7 +99,8 @@ align-items: center;
   margin-left: 0px;
  
   height: 25px;
-  margin-top:150px
+  margin-top:150px;
+ 
   
  
   
@@ -122,6 +126,7 @@ text-decoration: none;
 }
 .export{
   padding-bottom: 20px;
+  
 }
 .exp-img{
   height: 300px;
@@ -158,4 +163,9 @@ text-decoration: none;
 }
 a{
   color:black;
+  text-decoration: none;
+}
+.end{
+margin-top: 300px;
+
 }
