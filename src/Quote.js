@@ -1,5 +1,5 @@
 import React  from "react";
-import { Flip } from "react-reveal"
+import { Zoom } from "react-reveal"
 
 import Place from "./Place";
 
@@ -14,7 +14,7 @@ function Quote(children){
     return (
         <div className='quote'>
              <div  className="theplace">
-          <Flip>
+          <Zoom>
             <Place
             image={maldives}
             name="Maldives"
@@ -43,7 +43,7 @@ function Quote(children){
              <div id="smore">
 <h2 more="more"> more</h2><img src={back} alt='' id="back"/>
 </div>
-</Flip>
+</Zoom>
             </div>
           
 

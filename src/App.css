@@ -169,3 +169,164 @@ a{
 margin-top: 300px;
 
 }
+@media screen and (max-width:700px){
+  #App {
+    height: 200px;
+  }
+  .navbar{
+    justify-content: space-between;
+  }
+  #nav{
+  
+    margin-top: 15px;
+    display: flex;
+    margin-left: 60px;
+    
+    
+  }
+  .nav{
+    font-size: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color:rgb(178, 206, 230);
+    
+  }
+  
+  .quote{
+    text-align: center;
+    height: 100px;
+    
+   padding-top: 50px;
+   
+  
+    
+  }
+  #nav-name{
+   font-size: 8px;
+  }
+  .maldivesimg{
+  
+    height: 200px;
+ 
+    border-radius: 20px;
+  }
+  
+  .places{
+    font-size: 9px;
+    
+    color: black;
+   
+    
+  
+  }
+  .theplace{
+    display: flex;
+  justify-content: space-around;
+  
+  }
+ 
+  
+  .location{
+    
+    display: flex;
+  margin-top: -10px;
+  }
+  #name, .locate{
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .smore{
+    
+    display: flex;
+    margin-top: -15px;
+    margin-left: 30px;
+    position: absolute;
+   
+  }
+  .smore:hover{
+    color: blue;
+    font-size: 10px;
+  
+  }
+  #smore{
+    
+    display: flex;
+    
+  align-items: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+   
+    height: 25px;
+    margin-top:0px;
+   
+    
+   
+    
+  }
+  #smore:hover{
+    color: blue;
+    font-size: 18px;
+  
+  }
+
+  .back{
+    height: 10px;
+    margin-top: 18px;
+    margin-left: 5px;
+  }
+  #back{
+    
+    height: 10px;
+   margin-top: 8px;
+    margin-left: 5px;
+  }
+  .theplace{
+    
+display: grid;
+  
+  }
+  .places{
+    border: solid;
+    margin-bottom: 70px;
+    height: 310px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(151, 151, 173);
+
+  }
+  .exp-img{
+    height: 200px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+  }
+  
+  .img-text{
+    text-align: justify;
+  }
+  .exp-down-img{
+    display: flex;
+    justify-content: space-around;
+  }
+  .exp-1st-img{
+    height: 200px;
+    width: 120px;
+    border-radius: 20px;
+    
+  
+  }
+  .exp-2nd-img{
+    height: 200px;
+    width: 120px;
+    border-radius: 20px;
+  }
+  .exp-3rd-img{
+    height: 200px;
+    width: 120px;
+    border-radius: 20px;
+  }
+ 
+}

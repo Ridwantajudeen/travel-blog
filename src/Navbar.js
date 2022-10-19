@@ -12,7 +12,7 @@ function Navbar(){
             <a href="/"><h1 className="nav">HOME</h1></a> 
 
            <h1 className="nav">EXPLORE</h1>
-            <h1 className="nav">TRAVEL STORIES</h1>
+            <h1 className="nav">STORIES</h1>
             
             <h1 className="nav">TIPS</h1>
             </div>
